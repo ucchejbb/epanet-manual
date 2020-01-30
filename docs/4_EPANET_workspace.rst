@@ -16,6 +16,7 @@ Property Editor. It also shows how to set program preferences.*
 
 -------
 
+.. _sec-overview:
 
 Overview
 ~~~~~~~~
@@ -30,8 +31,10 @@ Overview
    .. figure:: media/image37.png
       :alt: EPANET Workspace
    
-      EPANET_Workspace
+      EPANET workspace.
    ..
+
+.. _sec-menubar:
 
 Menu Bar
 ~~~~~~~~
@@ -63,7 +66,7 @@ Menu Bar
 .. table:: File Menu Commands
    
   +---------------+------------------------------------------------------+
-  | *Command*     | *Description*                                        |
+  | *COMMAND*     | *DESCRIPTION*                                        |
   +===============+======================================================+
   | New           | Creates a new EPANET project                         |
   +---------------+------------------------------------------------------+
@@ -97,7 +100,7 @@ Menu Bar
 .. table:: Edit Menu Commands  
 
   +-----------------------------------+-----------------------------------+
-  | *Command*                         | *Description*                     |
+  | *COMMAND*                         | *DESCRIPTION*                     |
   +===================================+===================================+
   | Copy To                           | Copies the currently active view  |
   |                                   | (map, report, graph or table) to  |
@@ -129,7 +132,7 @@ Menu Bar
 .. table:: View Menu Controls     
 
   +--------------+-----------------------------------------------------------+
-  | *Command*    | *Description*                                             |
+  | *COMMAND*    | *DESCRIPTION*                                             |
   +==============+===========================================================+
   | Dimensions   | Dimensions the map                                        |
   +--------------+-----------------------------------------------------------+
@@ -165,7 +168,7 @@ Menu Bar
 .. table:: Project Menu Commmands     
 
   +-----------------------------------+-----------------------------------+
-  | *Command*                         | *Description*                     |
+  | *COMMAND*                         | *DESCRIPTION*                     |
   +===================================+===================================+
   | Summary                           | Provides a summary description of |
   |                                   | the project's characteristics     |
@@ -188,10 +191,10 @@ Menu Bar
    different formats. The commands for the Report Menu are shown in :numref:`table-Report_Menu_Commands` below.
       
 .. _table-Report_Menu_Commands:
-.. table:: Report Menu Commmands     
+.. table:: Report Menu Commands     
 
   +-----------------------------------+-----------------------------------+
-  | *Command*                         | *Description*                     |
+  | *COMMAND*                         | *DESCRIPTION*                     |
   +===================================+===================================+
   | Status                            | Reports changes in the status of  |
   |                                   | links over time                   |
@@ -227,10 +230,10 @@ Menu Bar
    The Window Menu contains the following commands shown in :numref:`table-Window_Menu_Commands` below.
       
 .. _table-Window_Menu_Commands:
-.. table:: Window Menu Commmands     
+.. table:: Window Menu Commands     
 
   +-------------+-------------------------------------------------------------+
-  | *Command*   | *Description*                                               |
+  | *COMMAND*   | *DESCRIPTION*                                               |
   +=============+=============================================================+
   | Arrange     | Rearranges all child windows to fit within the main window  |
   +-------------+-------------------------------------------------------------+
@@ -247,10 +250,10 @@ Menu Bar
    Context-sensitive Help is also available by pressing the F1 key.
       
 .. _table-Help_Menu_Commands:
-.. table:: Help Menu Commmands       
+.. table:: Help Menu Commands       
 
   +-------------+----------------------------------------------------------+
-  | *Command*   | *Description*                                            |
+  | *COMMAND*   | *DESCRIPTION*                                            |
   +=============+==========================================================+
   | Help Topics | Displays the Help system's Help Topics dialog box        |
   +-------------+----------------------------------------------------------+
@@ -260,8 +263,13 @@ Menu Bar
   +-------------+----------------------------------------------------------+
   | About       | Lists information about the version of EPANET being used |
   +-------------+----------------------------------------------------------+
+
 ..
-   
+
+   Context-sensitive Help is also available by pressing the F1 key.
+
+.. _sec-toolbars:
+
 Toolbars
 ~~~~~~~~
 
@@ -343,6 +351,7 @@ Toolbars
    |image65| Adds a label to the map
 
 
+.. _sec-stats_bar:
 
 Status Bar
 ~~~~~~~~~~
@@ -360,16 +369,18 @@ Status Bar
 
    - **Run Status** - a faucet icon shows:
 
-      - no running water if no analysis results are available,
+      - No running water if no analysis results are available,
 
-      - running water when valid analysis results are available,
+      - Running water when valid analysis results are available,
 
-      - a broken faucet when analysis results are available but may be
+      - A broken faucet when analysis results are available but may be
         invalid because the network data have been modified.
 
    - **XY Location** - displays the map coordinates of the current
      position of the mouse pointer.
 
+
+.. _sec-network_map:
 
 Network Map
 ~~~~~~~~~~~
@@ -390,6 +401,7 @@ Network Map
    property values displayed. The map can be printed, copied onto the
    Windows clipboard, or exported as a DXF file or Windows metafile.
 
+.. _sec-data_browser:
 
 Data Browser
 ~~~~~~~~~~~~
@@ -402,9 +414,9 @@ Data Browser
 
    .. _fig-Data_Browser:
    .. figure:: media/image53A.jpeg
-      :alt: Data Browser
+      :alt: Data Browser in EPANET
    
-      Data_Browser
+      Data browser.
    .. 
 
 .. _sec-map_browser:
@@ -419,9 +431,9 @@ Map Browser
 
    .. _fig-Map_Browser:
    .. figure:: media/image54A.jpeg
-      :alt: Map Browser
+      :alt: Map Browser in EPANET
    
-      Map Browser
+      Map browser.
    .. 
  
    The animation control pushbuttons on the Map Browser work as follows:
@@ -448,9 +460,9 @@ Property Editor
    
    .. _fig-Property_Editor:
    .. figure:: media/image57.png
-      :alt: Property Editor
+      :alt: Property Editor in EPANET
    
-      Property Editor
+      Property editor.
    .. 
 
     -  The Editor is a grid with two columns - one for the property's name
@@ -468,13 +480,13 @@ Property Editor
     -  Depending on the property, the value field can be one of the
        following:
 
-      -  a text box where you type in a value
+      -  A text box where you type in a value
 
-      -  a dropdown list box where you select from a list of choices
+      -  A dropdown list box where you select from a list of choices
 
-      -  an ellipsis button which you click to bring up a specialized editor
+      -  An ellipsis button which you click to bring up a specialized editor
 
-      -  a read-only label used to display computed results
+      -  A read-only label used to display computed results
 
     -  The property in the Editor that currently has focus will be
        highlighted with a white background.
@@ -491,6 +503,7 @@ Property Editor
     -  Clicking the Close button in the upper right corner of its title
        bar will hide the Editor.
 
+
 .. _sec-prog_pref:
 
 Program Preferences
@@ -504,14 +517,14 @@ Program Preferences
 
 **General Preferences**
 
-   The following preferences can be set on the General page of the
+   The following preferences can be set on the General tab of the
    Preferences dialog (as shown below in :numref:`table-General_Preferences`).
    
 .. _table-General_Preferences:
 .. table:: General Preferences  
 
   +-----------------------------------+-----------------------------------+
-  | *Preference*                      | *Description*                     |
+  | *PREFERENCE*                      | *DESCRIPTION*                     |
   +===================================+===================================+
   | Blinking Map Highlighter          | Check to make the selected node,  |
   |                                   | link, or label on the map blink   |
@@ -543,15 +556,15 @@ Program Preferences
   Menu screen for the General Tab is shown in :numref:`fig-Preferences_General` below.
 	
    .. _fig-Preferences_General:
-   .. figure:: media/Preferences_General_Tab.png
+   .. figure:: media/preferences_general_tab.png
       :alt: Preferences - General Tab
    
-      Preferences - General Tab
+      Preferences - general tab.
    ..
 
 **Formatting Preferences**
 
-   The Formats page of the Preferences dialog box (shown in :numref:`fig-Preferences_Formats`) controls how many
+   The Formats tab of the Preferences dialog box (shown in :numref:`fig-Preferences_Formats`) controls how many
    decimal places are displayed when results for computed parameters are
    reported. Use the dropdown list boxes to select a specific Node or
    Link parameter. Use the spin edit boxes to select the number of
@@ -562,9 +575,9 @@ Program Preferences
    
    .. _fig-Preferences_Formats:
    .. figure:: media/image59.png
-      :alt: Preferences - Formats Tab
+      :alt: Preferences - Formats Tab in EPANET
    
-      Preferences - Formats Tab
+      Preferences - formats tab.
    ..
       
 
