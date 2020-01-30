@@ -17,6 +17,7 @@ measurements) with the project to use for model evaluation.*
 -------
 
 
+.. _sec-open_save_prj:
 
 Opening and Saving Project Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,6 +77,8 @@ Opening and Saving Project Files
    project's data as readable ASCII text, use the **Export >> Network**
    command from the **File** menu.
 
+.. _sec-proj_defaults:
+
 Project Defaults
 ~~~~~~~~~~~~~~~~
 
@@ -113,7 +116,7 @@ Project Defaults
 
    **Default ID Labels**
 
-   The ID Labels page of the Defaults dialog form is shown in :numref:`fig-id_labels_page_defaults`
+   The ID Labels tab of the Defaults dialog form is shown in :numref:`fig-id_labels_page_defaults`
    below. It is used to determine how EPANET will assign default ID
    labels to network components when they are first created. For each
    type of object one can enter a label prefix or leave the field blank
@@ -127,15 +130,15 @@ Project Defaults
 
    .. _fig-id_labels_page_defaults:
    .. figure:: media/image2.png
-      :alt: ID Labels Page of Project Defaults Dialog
+      :alt: ID Labels Tab of Project Defaults Dialog in EPANET
    
-      ID Labels Page of Project Defaults Dialog
+      ID labels tab of project defaults dialog.
    ..
     
 
    **Default Node/Link Properties**
 
-   The Properties page of the Defaults dialog form is shown in :numref:`fig-Properties_Page_of_the_Project_Defaults_Dialog`. It sets default property values for newly created nodes and
+   The Properties tab of the Defaults dialog form is shown in :numref:`fig-Properties_Page_of_the_Project_Defaults_Dialog`. It sets default property values for newly created nodes and
    links. These properties include:
 
     -  Elevation for nodes
@@ -161,18 +164,18 @@ Project Defaults
 
    .. _fig-Properties_Page_of_the_Project_Defaults_Dialog:
    .. figure:: media/image60.png
-      :alt: Properties Page of the Project Defaults Dialog
+      :alt: Properties Tab of the Project Defaults Dialog in EPANET
    
-      Properties Page of the Project Defaults Dialog
+      Properties tab of the project defaults dialog.
    ..
 
 
    **Default Hydraulic Options**
 
-   The third page of the Defaults dialog form is used to assign default
+   The third tab of the Defaults dialog form is used to assign default
    hydraulic analysis options. It contains a sub-set of the project's Hydraulic 
    Options that can also be accessed from the Browser
-   (see Section 8.1). They are repeated on the Project Defaults dialog
+   (see :numref:`sec-analysis_ops`). They are repeated on the Project Defaults dialog
    so that they can be saved for use with future projects as well as
    with the current one. The most important Hydraulic Options to check
    when setting up a new project are Flow Units, Headloss Formula, and
@@ -183,6 +186,8 @@ Project Defaults
    The Default Pattern automatically becomes the time pattern used to
    vary demands in an extended period simulation for all junctions not
    assigned any pattern.
+
+.. _sec-cal_data:
 
 Calibration Data
 ~~~~~~~~~~~~~~~~
@@ -261,12 +266,14 @@ Calibration Data
 
    .. _fig-Calibration_Data_Dialog:
    .. figure:: media/image60.png
-      :alt: Calibration Data Dialog
+      :alt: Calibration Data Dialog in EPANET
    
-      Calibration Data Dialog
+      Calibration data dialog.
    ..
 
-   
+
+.. _sec-prj_sum:
+
 Project Summary
 ~~~~~~~~~~~~~~~
 
