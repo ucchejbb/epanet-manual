@@ -555,13 +555,8 @@ Program Preferences
   the backup file (.bak) is only created for .net type input files, not the .inp text files.  The Preferences
   Menu screen for the General Tab is shown in :numref:`fig-Preferences_General_Tab` below.
 	
-<<<<<<< HEAD
    .. _fig-Preferences_General_Tab:
-   .. figure:: media/Preferences_General_Tab.png
-=======
-   .. _fig-Preferences_General:
-   .. figure:: media/preferences_general_tab.png
->>>>>>> 47e82a6af2547bd53d8642bc91ba68e392200f98
+   .. figure:: media/preferences_General_Tab.png
       :alt: Preferences - General Tab
    
       Preferences - general tab.
