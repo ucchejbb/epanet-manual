@@ -1,11 +1,13 @@
-..
-    Testing comments
-..
 
-
-.. include:: front_matter.rst
+| Water Infrastructure Division
+| Center for Environmental Solutions and Emergency Response
+| Office of Research and Development
+| U.S. Environmental Protection Agency
+| Cincinnati, OH 45268
 
 .. include:: disclaimer.rst
+
+.. include:: front_matter.rst
 
 .. toctree::
    :numbered:
@@ -26,19 +28,10 @@
    11_importing_exporting
    12_questions
    analysis_algorithms
-
-
+   references
+   
 .. toctree:: 
    :hidden:
+   :caption: APPENDIX
 
-   references
    back_matter
-
-
-..
-    Contents
-    ==================
-
-    * :ref:`genindex`
-    * :ref:`modindex`
-    * :ref:`search`
