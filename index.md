@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ucchejbb/epanet-manual/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+| Water Infrastructure Division
+| Center for Environmental Solutions and Emergency Response
+| Office of Research and Development
+| U.S. Environmental Protection Agency
+| Cincinnati, OH 45268
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.. include:: disclaimer.rst
 
-### Markdown
+.. include:: front_matter.rst
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.. toctree::
+   :numbered:
+   :maxdepth: 2
+   :caption: Table of Contents
+   :hidden:
 
-```markdown
-Syntax highlighted code block
+   1_introduction
+   2_quickstart
+   3_network_model
+   4_EPANET_workspace
+   5_projects
+   6_objects
+   7_map
+   8_analyzing_network
+   9_viewing_results
+   10_printing_copying
+   11_importing_exporting
+   12_analysis_algorithms
+   13_questions  
+   references
+   
+.. toctree:: 
+   :hidden:
+   :caption: APPENDIX
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ucchejbb/epanet-manual/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+   back_matter
