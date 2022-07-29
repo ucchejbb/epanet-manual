@@ -1,5 +1,43 @@
-﻿EPANET 2.2 User Manual Overview
-======================================
+﻿
+
+.. raw:: latex
+
+    \clearpage
+
+.. only:: html
+
+  EPANET 2.2 User Manual Overview
+  ===============================
+
+..
+
+.. raw:: latex
+
+  \chapter*{EPANET 2.2 User Manual Overview}
+  \addcontentsline{toc}{chapter}{EPANET 2.2 User Manual Overview}
+..
+
+This manual describes how to run version 2.2 of the EPANET water distribution 
+system simulation model. Notable improvements made by this version include:
+
+
+        -  The ability to use pressure-dependent demands in hydraulic analyses.
+		
+        -  An option to allow full tanks to overflow.
+		
+        -  Options that insure a more accurate hydraulic analysis is made.
+		
+        -  More robust handling of low and zero flow hydraulic conditions.
+		
+        -  Faster solution times for single period hydraulic analyses.
+		
+        -  Improved mass balance results for water quality analyses.
+		
+        -  An enhanced API function library for customizing EPANET (see http://wateranalytics.org/EPANET/).
+
+
+The following topics are covered in this Manual:
+
 :ref:`introduction` of this manual describes what EPANET is and its
 capabilities.
 
@@ -63,15 +101,13 @@ coefficients, etc.). It also discusses how to save a project’s entire
 database to a readable text file and how to export the network map to
 a variety of formats.
 
+:ref:`analysis_algorithms` provides details of the procedures and
+formulas used by EPANET in its hydraulic and water quality analysis algorithms.
+
 :ref:`questions` answers questions about how EPANET can be used
 to model special kinds of situations, such as modeling pneumatic tanks,
 finding the maximum flow available at a specific pressure, and
 modeling the growth of disinfection by-products.
-
-:ref:`analysis_algorithms` provides details of the procedures and
-formulas used by EPANET in its hydraulic and water quality analysis algorithms.
-
-
 The manual also contains several appendixes.
 
 | :ref:`units` provides a table of units of expression for all

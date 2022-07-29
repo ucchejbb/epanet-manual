@@ -31,7 +31,7 @@ Overview
    .. figure:: media/image37.png
       :alt: EPANET Workspace
    
-      EPANET workspace.
+      EPANET Workspace.
    ..
 
 .. _sec-menubar:
@@ -165,7 +165,7 @@ Menu Bar
    The Project Menu includes commands related to the current project being analyzed.  The commands for the Project Menu are shown in :numref:`table-Project_Menu_Commands` below.
       
 .. _table-Project_Menu_Commands:
-.. table:: Project Menu Commmands     
+.. table:: Project Menu Commands     
 
   +-----------------------------------+-----------------------------------+
   | *COMMAND*                         | *DESCRIPTION*                     |
@@ -190,6 +190,8 @@ Menu Bar
    The Report menu has commands used to report analysis results in
    different formats. The commands for the Report Menu are shown in :numref:`table-Report_Menu_Commands` below.
       
+.. tabularcolumns:: |p{3cm}|p{11cm}|
+
 .. _table-Report_Menu_Commands:
 .. table:: Report Menu Commands     
 
@@ -228,7 +230,9 @@ Menu Bar
 **Window Menu**
 
    The Window Menu contains the following commands shown in :numref:`table-Window_Menu_Commands` below.
-      
+
+ .. tabularcolumns:: |p{3cm}|p{11cm}|
+
 .. _table-Window_Menu_Commands:
 .. table:: Window Menu Commands     
 
@@ -248,7 +252,9 @@ Menu Bar
 
    The Help Menu contains commands for getting help in using EPANET. The Help Menu contains the following commands shown in :numref:`table-Help_Menu_Commands` below. 
    Context-sensitive Help is also available by pressing the F1 key.
-      
+
+.. tabularcolumns:: |p{3cm}|p{11cm}|
+
 .. _table-Help_Menu_Commands:
 .. table:: Help Menu Commands       
 
@@ -416,7 +422,7 @@ Data Browser
    .. figure:: media/image53A.jpeg
       :alt: Data Browser in EPANET
    
-      Data browser.
+      Data Browser.
    .. 
 
 .. _sec-map_browser:
@@ -433,7 +439,7 @@ Map Browser
    .. figure:: media/image54A.jpeg
       :alt: Map Browser in EPANET
    
-      Map browser.
+      Map Browser.
    .. 
  
    The animation control pushbuttons on the Map Browser work as follows:
@@ -462,7 +468,7 @@ Property Editor
    .. figure:: media/image57.png
       :alt: Property Editor in EPANET
    
-      Property editor.
+      Property Editor.
    .. 
 
     -  The Editor is a grid with two columns - one for the property's name
@@ -520,6 +526,8 @@ Program Preferences
    The following preferences can be set on the General tab of the
    Preferences dialog (as shown below in :numref:`table-General_Preferences`).
    
+.. tabularcolumns:: |p{4cm}|p{10cm}|
+
 .. _table-General_Preferences:
 .. table:: General Preferences  
 
@@ -559,7 +567,7 @@ Program Preferences
    .. figure:: media/image58.png
       :alt: Preferences - General Tab
    
-      Preferences - general tab.
+      Preferences - General Tab.
    ..
 
 **Formatting Preferences**
@@ -577,7 +585,7 @@ Program Preferences
    .. figure:: media/image59.png
       :alt: Preferences - Formats Tab in EPANET
    
-      Preferences - formats tab.
+      Preferences - Formats Tab.
    ..
       
 

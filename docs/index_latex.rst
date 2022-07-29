@@ -4,6 +4,9 @@ EPANET documentation
 .. toctree::
    :maxdepth: 2
    
+   disclaimer
+   Acknowledgments
+   acronyms
    front_matter
    1_introduction
    2_quickstart
@@ -16,7 +19,7 @@ EPANET documentation
    9_viewing_results
    10_printing_copying
    11_importing_exporting
-   12_questions
-   analysis_algorithms
+   12_analysis_algorithms
+   13_questions  
    references
    

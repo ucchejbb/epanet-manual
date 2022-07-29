@@ -12,16 +12,16 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
+#import os
+#import sys
+#sys.path.insert(0, os.path.abspath('.'))
+import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
 project = 'EPANET'
 copyright = '2020'
-author = u'Lewis Rossman \\and Hyoungmin Woo \\and Michael Tryby \\and Feng Shang \\and Terranna Haxton \\and Robert Janke'
+author = u'Lewis A. Rossman \\and Hyoungmin Woo \\and Michael Tryby \\and Feng Shang \\and Terranna Haxton'
 
 # The short X.Y version
 version = ''
@@ -46,6 +46,7 @@ release = '2.2'
 extensions = ['sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
+    "sphinx_rtd_theme",
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
@@ -89,6 +90,8 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+#latex_logo = './media/logo.png'
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -123,9 +126,9 @@ html_context = {
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'EPANETdoc'
 
-
 # -- Options for LaTeX output ------------------------------------------------
 latex_engine = 'pdflatex'
+latex_additional_files = ["media/logo.png", "media/epanetlogo.png"]
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
@@ -145,87 +148,69 @@ latex_elements = {
    'maketitle': r'''       
         \pagenumbering{Roman}
         \begin{titlepage}
+
+            \vspace{0mm}  
+            \begin{minipage}{0.5\textwidth}                                      
+            \begin{figure}[H]             
+                  \includegraphics[scale=0.8]{logo.png}   
+            \end{figure}
+            \end{minipage} \hfill
+            \begin{minipage}{0.45\textwidth}
+            \begin{flushright}
+            \Large{EPA/600/R-20/133}
+            \end{flushright}
+            \end{minipage}
+            
+            
+            \vspace*{30mm}
             \centering
-            \vspace*{40mm} %%% * is used to give space from top
             \textbf{\Huge {EPANET 2.2 User Manual}}
             
-            \vspace*{10mm} %%% * is used to give space from top
-            \textbf{\Large {Lew Rossman}}
+            \vspace*{20mm} %%% * is used to give space from top
+            \textbf{\normalsize {Lewis A. Rossman}}
             
             \vspace*{1mm} %%% * is used to give space from top
-            \textbf{\Large {Hyoungmin Woo}}
+            \textbf{\normalsize {Hyoungmin Woo}}
             
             \vspace*{1mm} %%% * is used to give space from top
-            \textbf{\Large {Michael Tryby}}
+            \textbf{\normalsize {Michael Tryby}}
             
             \vspace*{1mm} %%% * is used to give space from top
-            \textbf{\Large {Feng Shang}}
-            
+            \textbf{\normalsize {Feng Shang}}
+
             \vspace*{1mm} %%% * is used to give space from top
-            \textbf{\Large {Terranna Haxton}}
-            
+            \textbf{\normalsize {Robert Janke}}            
+
             \vspace*{1mm} %%% * is used to give space from top
-            \textbf{\Large {Robert Janke}}            
+            \textbf{\normalsize {Terranna Haxton}}
+
+            \vspace{30mm}
+            \textbf{\Large {Water Infrastructure Division}}
+           
+            \vspace*{1mm}
+            \textbf{\Large{Center for Environmental Solutions and Emergency Response}}
+           
+            \vspace*{1mm}
+            \textbf{\Large{U.S. Environmental Protection Agency}}
+           
+            \vspace*{1mm}
+            \textbf{\Large{Cincinnati, Ohio 45268}}
+
+            \vspace*{1mm}
+            \begin{figure}[htbp]
+                \centering
+                \includegraphics[scale=0.75]{epanetlogo.png}
+            \end{figure}
+
+
+           
         \end{titlepage}
         \setcounter{page}{1}
         \pagenumbering{roman}
         \tableofcontents
         \listoffigures
         \listoftables
-        \chapter*{Disclaimer}
-          This User Manual is an updated version of the EPANET 2 Users Manual
-            (EPA/600/R-00/057) written by Lewis Rossman in 2000. The EPANET 2 software
-            was developed by the United States Environmental Protection Agency (EPA).
-
-            EPANET Version 2.2 includes contributions from EPA and individuals outside
-            the United States Government. It has been subjected to review by the Office of Research and Development and approved for publication. Approval does not signify that the contents reflect the views of the Agency, nor does mention of trade names or commercial products constitute endorsement or recommendation for use. 
-
-            Execution of any EPANET installation program, and modification to system configuration files must be made at the user's own risk. Neither the U.S. EPA nor the program author(s) can assume responsibility for program modification, content, output, interpretation, or usage.
-
-            EPANET installation programs have been extensively tested and verified. However, as for all complex software, these programs may not be completely free of errors and may not be applicable for all cases. In no event will the U.S. EPA be liable for direct, indirect, special, incidental, or consequential damages arising out of the use of the programs and/or associated documentation.
-        \chapter*{ACKNOWLEDGEMENT}
-           The U.S. Environmental Protection Agency acknowledges the individuals that 
-           assisted with the technical review and beta-testing of the EPANET software and user manual.
-        \chapter*{ABBREVIATION}
-            \textbf{CAD}: Computer aided design
-
-            \textbf{CV}: Check valve
-
-            \textbf{DDA}: Demand driven analysis
-
-            \textbf{EPA}: Environmental Protection Agency
-
-            \textbf{EPS}: Extended period simulation
-
-            \textbf{FCV}: Flow control valve
-
-            \textbf{FIFO}: First in first out
-
-            \textbf{GGA}: Global gradient algorithm
-
-            \textbf{GIS}: Geographic information system
-
-            \textbf{GPV}: General purpose valve
-
-            \textbf{LIFO}: Last in first out 
-
-            \textbf{PBV}: Pressure breaker valve
-
-            \textbf{PDA}: Pressure driven analysis
-
-            \textbf{PDD}: Pressure driven demand
-
-            \textbf{PRV}: Pressure reducing valve
-
-            \textbf{PSV}: Pressure sustaining valve 
-
-            \textbf{SI}: International System of Units
-
-            \textbf{TCV}: Throttle control valve
-
-            \textbf{THM}: Trihalomethanes
-
-            \textbf{US}: United States
+        \listof{literalblock}{List of Listings}
 
         ''',
     'sphinxsetup': \
@@ -238,6 +223,8 @@ latex_elements = {
 
         'tableofcontents':' ',
 }
+
+
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
