@@ -1,18 +1,6 @@
-.. raw:: latex
+# Introduction
 
-    \clearpage
-  	\pagenumbering{arabic}
-    \setcounter{page}{1}
-
-
-.. _introduction:
-
-Introduction
-============
-
-
-What is EPANET
-~~~~~~~~~~~~~~
+## What is EPANET
 
    EPANET is a computer program that performs extended period simulation
    of hydraulic and water quality behavior within pressurized pipe
@@ -41,16 +29,13 @@ What is EPANET
 
     -  Targeted pipe cleaning and replacement
 
-..
-
    Running under Windows, EPANET provides an integrated environment for
    editing network input data, running hydraulic and water quality
    simulations, and viewing the results in a variety of formats. These
    include color-coded network maps, data tables, time series graphs,
    and contour plots.
 
-Hydraulic Modeling Capabilities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Hydraulic Modeling Capabilities
 
    Full-featured and accurate hydraulic modeling is a prerequisite for
    doing effective water quality modeling. EPANET contains a
@@ -85,8 +70,7 @@ Hydraulic Modeling Capabilities
     - Can base system operation on both simple tank level or timer controls
       and on complex rule-based controls
 
-Water Quality Modeling Capabilities
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Water Quality Modeling Capabilities
 
    In addition to hydraulic modeling, EPANET provides the following
    water quality modeling capabilities:
@@ -127,8 +111,6 @@ Water Quality Modeling Capabilities
     - Models storage tanks as being either complete mix, plug flow, or
       two-compartment reactors
 
-..
-
    By employing these features, EPANET can study such water quality
    phenomena as:
 
@@ -142,8 +124,7 @@ Water Quality Modeling Capabilities
 
     -  Tracking contaminant propagation events
 
-Steps in Using EPANET
-~~~~~~~~~~~~~~~~~~~~~
+## Steps in Using EPANET
 
    One typically carries out the following steps when using EPANET to
    model a water distribution system:
