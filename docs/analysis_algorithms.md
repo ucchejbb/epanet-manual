@@ -92,7 +92,7 @@
   resistance coefficient is not a function of flow rate,
 
   .. math::
-     $${g}_{ij} = nr {{ | Q_{ij} | }^{n - 1}} + 2m | Q_{ij} |$$
+     $$({g}_{ij} = nr {{ | Q_{ij} | }^{n - 1}} + 2m | Q_{ij} |)$$
 
   when resistance coefficient is a function of flow rate, specifically as
   in Darcy-Weisbach head loss equation and when flow is turbulent,
