@@ -22,9 +22,8 @@ EPANET installation programs have been extensively tested and verified. However,
 
 
 
-EPANET 2.2 User Manual Overview
-======================================
-:ref:`introduction` of this manual describes what EPANET is and its
+## EPANET 2.2 User Manual Overview
+[Introduction](docs/1_introduction.md) of this manual describes what EPANET is and its
 capabilities.
 
 :ref:`quickstart` describes how to install EPANET and offers
@@ -106,74 +105,3 @@ The manual also contains several appendixes.
   from a command line prompt within a DOS window, and discusses the
   format of the files that are used with this mode of operation.
 
-
-
--------
-You can use the [editor on GitHub](https://github.com/ucchejbb/epanet-manual/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
- Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
- ### Markdown
-
- Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
- ```markdown
- Syntax highlighted code block
-
- # Header 1
- ## Header 2
- ### Header 3
-
- - Bulleted
- - List
-
- 1. Numbered
- 2. List
-
- **Bold** and _Italic_ and `Code` text
-
- [Link](url) and ![Image](src)
- ```
-
- For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
- ### Jekyll Themes
-
- Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ucchejbb/epanet-manual/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
- ### Support or Contact
-
- Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
- 
-
-
-.. include:: disclaimer.rst
-
-.. include:: front_matter.rst
-
-.. toctree::
-   :numbered:
-   :maxdepth: 2
-   :caption: Table of Contents
-   :hidden:
-
-   1_introduction
-   2_quickstart
-   3_network_model
-   4_EPANET_workspace
-   5_projects
-   6_objects
-   7_map
-   8_analyzing_network
-   9_viewing_results
-   10_printing_copying
-   11_importing_exporting
-   12_analysis_algorithms
-   13_questions  
-   references
-   
-.. toctree:: 
-   :hidden:
-   :caption: APPENDIX
-
-   back_matter
