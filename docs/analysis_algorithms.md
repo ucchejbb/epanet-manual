@@ -34,7 +34,7 @@
   .. math::
      :label: eq:pipe_headloss
 
-     $$ H_{i} - H_{j} = h_{ij} = rQ_{ij}^{n} + mQ_{ij}^{2} $$
+     $ H_{i} - H_{j} = h_{ij} = rQ_{ij}^{n} + mQ_{ij}^{2} $
 
   where $H$ = nodal head, $h$ = headloss, $r$ = resistance
   coefficient, $Q$ = flow rate, $n$ = flow exponent, and $m$
