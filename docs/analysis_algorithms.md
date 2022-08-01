@@ -34,7 +34,7 @@
   .. math::
      :label: eq:pipe_headloss
 
-     $$H_{i} - H_{j} = h_{ij} = rQ_{ij}^{n} + mQ_{ij}^{2}$$
+     $$ H_{i} - H_{j} = h_{ij} = rQ_{ij}^{n} + mQ_{ij}^{2} $$
 
   where $H$ = nodal head, $h$ = headloss, $r$ = resistance
   coefficient, $Q$ = flow rate, $n$ = flow exponent, and $m$
@@ -44,7 +44,7 @@
   power law of the form
 
   .. math::
-     $${h}_{ij} = {-\omega}^{2} ( {h}_{0} - r { ( {Q}_{ij}/{\omega} )}^{2 } )$$
+     $$ {h}_{ij} = {-\omega}^{2} ( {h}_{0} - r { ( {Q}_{ij}/{\omega} )}^{2 } ) $$
 
   where $h_{0}$ is the shutoff head for the pump, $\omega$ is a
   relative speed setting, and $r$ and $n$ are the pump curve
