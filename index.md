@@ -76,7 +76,7 @@ network map, various kinds of graphs and tables, and several different types
 of special reports.
 
 [Printing/Copying](docs/10_printing_copying.md) explains how to print and copy the views
-discussed in :ref:`viewing_results`.
+discussed in [Viewing Results](docs/9_viewing_results.md).
 
 [Importing/Exporting](docs/11_importing_exporting.md) describes how EPANET can import and
 export project scenarios. A scenario is a subset of the data that characterizes
