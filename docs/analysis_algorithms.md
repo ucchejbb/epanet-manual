@@ -1,3 +1,5 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 # Analysis Algorithms
 
 *EPANET uses a variety of algorithms for the hydraulic and water quality analysis. This chapter describes the two different demand models used for hydraulics analysis and the algorithms for the water quality analysis.*
